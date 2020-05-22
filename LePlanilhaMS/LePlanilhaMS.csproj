@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.3.20181.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.3.20181.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0-preview.3.20215.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0-preview.3.20215.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0-preview.3.20215.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+</Project>
